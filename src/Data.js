@@ -8,5 +8,10 @@ export const data =  [
         id: 2,
         source: 'https://www.minibigtech.com/blog/wp-content/uploads/2016/12/homapage.jpg',
         description: 'this is a youtube clone that I am working on too',
+    }, 
+    {
+        id:3,
+        source: 'https://neilpatel.com/wp-content/uploads/2023/06/Best_landing_pages3-700x397.jpg',
+        description: 'i will work on this'
     }
 ]

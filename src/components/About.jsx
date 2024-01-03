@@ -2,20 +2,8 @@ import React from 'react'
 
 const About = () => {
 
-  const about = [
-    {
-      
-
-    },
-    {
-
-    },
-    {
-
-    },
-  ]
   return (
-    <div id='about' className='mt-4'>
+    <div id='about' className='mt-4 h-full w-full'>
       <h1 className='text-4xl text-center font-semibold text-[#0f285ef1] mb-6'>About</h1>
       <section className='border-l-4 border-gray-400 md:ml-12 text-lg'>
         <section className=' mb-5 flex row md:flex row justify-evenly '>

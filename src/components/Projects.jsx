@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div>
         <h1 className='text-4xl text-center font-semibold text-[#0f285ef1] mb-6'>Projects</h1>
-        <div className='grid md:flex row justify-evenly'>
+        <div className='flex flex-wrap md:flex flex-row gap-3 ml-6'>
           {data.map((item)=> {
             return <ProjectCard data ={item} key={item.id}/>
           })}

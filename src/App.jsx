@@ -1,16 +1,19 @@
 import React, {useState} from 'react'
-import Logo from './components/Logo'
 import Sidenav from './components/Sidenav'
 import Body from './components/Body'
 import About from './components/About'
+import Projects from './components/Projects'
+
+
+
 
 const App = () => {
   return (
     <div>
-      {/* <Logo/> */}
       <Sidenav/>
       <Body/>
       <About/>
+      <Projects/>
     </div>
   )
 }

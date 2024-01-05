@@ -13,31 +13,7 @@ const About = () => {
         </section>
         <div >
           <p className='mb-4 ml-0 md:ml-6 wrap'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, natus, fugit dicta neque laudantium corrupti, cupiditate praesentium iusto harum eum rerum esse corporis? Doloribus magni a tempora quibusdam praesentium laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure id dolores corrupti consectetur pariatur commodi delectus nam perferendis, nemo molestiae culpa magnam ducimus neque non iusto sint! Rem, dolorum architecto.
-          </p>
-        </div>
-      </section>
-      <section className='border-l-4 border-gray-400 md:ml-12 text-lg'>
-        <section className=' mb-5 flex row md:flex row justify-evenly '>
-          <h3 className='bg-[#0f285ef1] border-1 rounded w-13 h-9 pt-1 text-white p-2'>2022</h3>
-          <h3 className='bg-[#0f285ef1] border-1 rounded w-13 h-9 pt-1 text-white p-2'>Full-Stack Developer</h3>
-          <h3 className='text-gray-500'>-years</h3>
-        </section>
-        <div >
-          <p className='mb-4 ml-0 md:ml-6 wrap'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, natus, fugit dicta neque laudantium corrupti, cupiditate praesentium iusto harum eum rerum esse corporis? Doloribus magni a tempora quibusdam praesentium laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo molestias! Veritatis tempora cupiditate suscipit molestiae voluptate quos, earum atque mollitia animi eligendi et doloremque qui hic ut, dolorum sapiente.
-          </p>
-        </div>
-      </section>
-      <section className='border-l-4 border-gray-400 md:ml-12 text-lg'>
-        <section className=' mb-5 flex row md:flex row justify-evenly '>
-          <h3 className='bg-[#0f285ef1] border-1 rounded w-13 h-9 pt-1 text-white p-2'>2021</h3>
-          <h3 className='bg-[#0f285ef1] border-1 rounded w-13 h-9 pt-1 text-white p-2'>Lead Engineer</h3>
-          <h3 className='text-gray-500'>-years</h3>
-        </section>
-        <div >
-          <p className='mb-4 ml-0 md:ml-6 wrap'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, natus, fugit dicta neque laudantium corrupti, cupiditate praesentium iusto harum eum rerum esse corporis? Doloribus magni a tempora quibusdam praesentium laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo molestias! Veritatis tempora cupiditate suscipit molestiae voluptate quos, earum atque mollitia animi eligendi et doloremque qui hic ut, dolorum sapiente.
+         I have worked with a group called AdventBand where we are currently working on a full-stack web application mainly based on development of healthy habits of diet. I have experience in agile methodology of doing tasks as an afterm
           </p>
         </div>
       </section>

@@ -13,7 +13,7 @@ const About = () => {
         </section>
         <div >
           <p className='mb-4 ml-0 md:ml-6 wrap'>
-         I have worked with a group called AdventBand where we are currently working on a full-stack web application mainly based on development of healthy habits of diet. I have experience in agile methodology of doing tasks as an afterm
+         I have worked with a group called AdventBand where we are currently working on a full-stack web application mainly based on development of healthy habits of diet. I have experience in agile methodology of doing tasks as an aftermath.
           </p>
         </div>
       </section>

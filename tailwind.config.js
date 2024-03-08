@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgbody:"#070707",
-        bgcard:"#111",
+        "bgbody":"#070707",
+        "bgcard":"#111",
       }
     },
   },

@@ -4,7 +4,7 @@ import { Header } from "./components";
 
 const App = () => {
   return (
-    <main>
+    <main className="bg-bgbody h-screen overflow-hidden">
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />

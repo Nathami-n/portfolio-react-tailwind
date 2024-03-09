@@ -22,7 +22,7 @@ const Header = () => {
       </nav>
       {openNav && (
         <div className="border-black mx-auto bg-black/30 relative flex justify-center items-center z-2">
-          <ul className="p-4 flex flex-col gap-12 bottom-0  h-[360px] w-[400px] items-center fixed  rounded-xl  bg-bgcard z-10">
+          <ul className="p-8 flex flex-col gap-12 bottom-0  h-[360px] w-[400px] items-center fixed  rounded-3xl  bg-bgcard z-10">
             <li className="nav">
               <Link>Home</Link>
             </li>

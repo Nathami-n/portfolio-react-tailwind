@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         "bgbody":"#070707",
-        "bgcard":"#111",
+        "bgcard":"#141414",
       }
     },
   },

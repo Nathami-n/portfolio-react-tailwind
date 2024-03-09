@@ -21,8 +21,15 @@ const Header = () => {
         </div>
       </nav>
       {openNav && (
-        <div className="border-black mx-auto bg-black/30 relative flex justify-center items-center z-2">
-          <ul className="p-8 flex flex-col gap-12 top-[20%] h-[360px] max-md:w-full items-center fixed  rounded-3xl  bg-bgcard z-10">
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            ease: "easeInOut",
+          }}
+          className="border-black  relative flex justify-center items-center z-2"
+        >
+          <ul className="p-12 flex flex-col gap-12  max-md:top-[20%] h-[400px] max-md:w-full items-center fixed  rounded-3xl  bg-bgcard z-10 md:top-[60px] md:w-[500px] md:right-[40px]">
             <li className="nav">
               <Link>Home</Link>
             </li>
@@ -36,7 +43,7 @@ const Header = () => {
               <Link>Contact</Link>
             </li>
           </ul>
-        </div>
+        </motion.div>
       )}
     </div>
   );

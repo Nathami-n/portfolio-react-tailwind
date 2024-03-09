@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav {
+    @apply uppercase text-white text-2xl
+}

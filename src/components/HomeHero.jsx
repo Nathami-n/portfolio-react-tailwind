@@ -9,7 +9,7 @@ const HomeHero = () => {
             className="object-contain w-full h-full"
           />
         </div>
-        <div className="text-white h-auto lg:ml-[50px] lg:w-[100%] lg:h-[600px]  w-[98%] lg:col-span-3  gap-10 bg-bgcard rounded-2xl flex flex-col p-8 justify-center items-center">
+        <div className="text-white  lg:ml-[50px] lg:w-[100%] lg:h-[600px]   h-[98%] w-[98%] lg:col-span-3  gap-10 bg-bgcard rounded-2xl flex flex-col p-8 justify-center items-center">
           <h1 className="font-bold text-4xl">
             Hello, I&apos;m <span className="text-[#f75c2d]">Nathan</span>
           </h1>

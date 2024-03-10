@@ -9,6 +9,9 @@ export default {
       colors: {
         "bgbody":"#070707",
         "bgcard":"#141414",
+      },
+      screens: {
+        "lg": "993px" 
       }
     },
   },

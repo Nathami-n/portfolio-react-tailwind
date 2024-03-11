@@ -11,7 +11,7 @@ export default {
         lg: "993px",
       },
       backgroundImage: {
-        "youtube-card": "url('/youtube.jpg')",
+        "youtube-card": "url('/youtune.avif')",
         "guitar-card": "url('/guitar.jpg')",
       },
     },

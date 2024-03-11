@@ -18,7 +18,7 @@ const HomeProjects = () => {
           </div>
         </div>
         <div className="card  max-sm:col-span-7 h-full overflow-hidden ">
-          <div className="projectCard bg-guitar-card ">
+          <div className="projectCard bg-guitar-card bg-center ">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">SerahKe</span>{" "}
               <span>

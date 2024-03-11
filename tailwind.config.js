@@ -1,19 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        "bgbody":"#070707",
-        "bgcard":"#141414",
+        bgbody: "#070707",
+        bgcard: "#141414",
       },
       screens: {
-        "lg": "993px" 
-      }
+        lg: "993px",
+      },
+      backgroundImage: {
+        "youtube-card": "url('/youtube.jpg')",
+        "guitar-card": "url('/guitar.jpg')",
+      },
     },
   },
   plugins: [],
-}
+};

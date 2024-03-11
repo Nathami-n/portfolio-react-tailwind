@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .nav {
-    @apply uppercase text-white text-2xl
+  @apply uppercase text-white text-2xl;
+}
+.card {
+  @apply bg-bgcard rounded-2xl  border border-white/20;
 }

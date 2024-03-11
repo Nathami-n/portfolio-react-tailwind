@@ -35,7 +35,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             className="bg-black/50 w-full h-screen fixed inset-0 cursor-pointer"
           />
-          <ul className="p-12 flex flex-col gap-12  max-md:top-[20%] h-[400px] max-md:w-full items-center fixed  rounded-3xl  bg-bgcard z-10 md:top-[60px] md:w-[500px] md:right-[40px]">
+          <ul className="p-12 flex flex-col gap-12  max-md:top-[20%] h-[400px] max-md:w-full items-center fixed  rounded-3xl  bg-bgcard  md:top-[60px] md:w-[500px] md:right-[40px]">
             <li className="nav">
               <Link>Home</Link>
             </li>

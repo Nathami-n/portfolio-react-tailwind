@@ -1,13 +1,34 @@
+import { motion } from "framer-motion";
+import { CiStar } from "react-icons/ci";
+const rotateVariants = {
+  rotateStar: {
+    rotate: 360,
+    transition: {
+      repeat: Infinity,
+      duration: 4,
+      ease: "linear",
+    },
+  },
+};
 const HomeHero = () => {
   return (
     <section className="min-h-screen max-md:p-6">
       <div className="  mx-auto max-lg:flex max-lg:flex-col items-center lg:gap-[40px] lg:grid lg:grid-cols-8  mt-8 gap-11">
-        <div className=" bg-red-400  max-lg:max-w-[750px] max-lg:max-h-[400px] lg:w-[95%] lg:h-[600px]  lg:ml-[40px] lg:col-span-4 card overflow-hidden grid place-content-center ">
-        <img
+        <div className=" bg-red-400 relative  max-lg:max-w-[750px] max-lg:max-h-[400px] lg:w-[95%] lg:h-[600px]  lg:ml-[40px] lg:col-span-4 card overflow-hidden grid place-content-center ">
+          <img
             src="/lap.avif"
             alt="Hero Image"
             className="object-cover w-full h-full"
           />
+          <motion.div className="absolute  top-[75%] right-[3%]">
+            <motion.div
+              variants={rotateVariants}
+              animate="rotateStar"
+              className=" text-[60px] text-blue-900 rotate-center"
+            >
+              <CiStar className="bg-[#f75c2d] rounded-full " />
+            </motion.div>
+          </motion.div>
         </div>
         <div className="text-white  lg:ml-[50px] lg:w-[100%] lg:h-[600px]  w-[98%] lg:col-span-3   gap-10 bg-bgcard rounded-2xl flex flex-col p-8 justify-center items-center">
           <h1 className="font-bold text-4xl">

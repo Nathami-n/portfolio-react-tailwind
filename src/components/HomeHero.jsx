@@ -2,11 +2,11 @@ const HomeHero = () => {
   return (
     <section className="min-h-screen max-md:p-6">
       <div className="  mx-auto max-lg:flex max-lg:flex-col items-center lg:gap-[40px] lg:grid lg:grid-cols-8  mt-8 gap-11">
-        <div className="  w-[90%] h-auto lg:w-[95%] lg:h-[600px]  lg:ml-[40px] lg:col-span-4 card flex flex-col justify-center items-center">
-          <img
-            src="/nate.svg"
+        <div className=" bg-red-400  max-lg:max-w-[750px] max-lg:max-h-[400px] lg:w-[95%] lg:h-[600px]  lg:ml-[40px] lg:col-span-4 card overflow-hidden grid place-content-center ">
+        <img
+            src="/lap.avif"
             alt="Hero Image"
-            className="object-contain w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
         <div className="text-white  lg:ml-[50px] lg:w-[100%] lg:h-[600px]  w-[98%] lg:col-span-3   gap-10 bg-bgcard rounded-2xl flex flex-col p-8 justify-center items-center">

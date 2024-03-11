@@ -8,3 +8,10 @@
 .card {
   @apply bg-bgcard rounded-2xl  border border-white/20;
 }
+
+.projectCard {
+  @apply w-full h-full  bg-cover bg-no-repeat  cursor-pointer flex items-end p-4
+}
+.cardInfo {
+  @apply  flex justify-between items-center w-full
+}

@@ -24,9 +24,9 @@ const HomeHero = () => {
             <motion.div
               variants={rotateVariants}
               animate="rotateStar"
-              className=" text-[60px] text-blue-900 rotate-center"
+              className=" text-[60px] text-white rotate-center p-3"
             >
-              <CiStar className="bg-[#f75c2d] rounded-full " />
+              <CiStar className="bg-[#f75c2d]  rounded-full p-2 " />
             </motion.div>
           </motion.div>
         </div>

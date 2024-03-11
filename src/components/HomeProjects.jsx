@@ -5,7 +5,7 @@ const HomeProjects = () => {
         <div className="max-sm:col-span-7  relative h-full w-full ">
           <div className=" max-sm:rounded-lg w-full h-full bg-youtube-card bg-cover bg-center bg-no-repeat cursor-pointer "></div>
         </div>
-        <div className="card  max-sm:col-span-7 relative h-full ">
+        <div className="card  max-sm:col-span-7 relative h-full overflow-hidden ">
           <div className="w-full h-full bg-guitar-card bg-contain bg-no-repeat bg-center cursor-pointer "></div>
         </div>
       </div>

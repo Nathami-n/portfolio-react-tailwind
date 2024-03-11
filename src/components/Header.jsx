@@ -28,7 +28,7 @@ const Header = () => {
             ease: "easeInOut",
           }}
           onClick={() => setOpenNav(!openNav)}
-          className="border-black  relative flex justify-center items-center z-2"
+          className="border-black  relative flex justify-center items-center z-[99]"
         >
           <motion.div
             initial={{ opacity: 0 }}

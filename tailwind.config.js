@@ -13,7 +13,7 @@ export default {
       backgroundImage: {
         "youtube-card": "url('/youtune.avif')",
         "guitar-card": "url('/guitar.jpg')",
-        "car-card": "url('/cargo.webp')",
+        "car-card": "url('/cargo.jpg')",
       },
     },
   },

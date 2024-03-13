@@ -3,7 +3,7 @@ const HomeProjects = () => {
   return (
     <section className="min-h-screen ">
       <div className="grid p-4 gap-6">
-        <div className=" relative h-[400px] w-full ">
+        <div className=" relative h-[350px] w-full ">
           <div className=" max-sm:rounded-lg  bg-youtube-card  bg-center projectCard transtion-all">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">YouPlay</span>{" "}
@@ -14,7 +14,7 @@ const HomeProjects = () => {
             </div>
           </div>
         </div>
-        <div className="card h-[400px] w-full overflow-hidden ">
+        <div className="card h-[350px] w-full overflow-hidden ">
           <div className="projectCard bg-guitar-card bg-center ">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">SerahKe</span>{" "}
@@ -29,7 +29,7 @@ const HomeProjects = () => {
           className="
           
           card
-          h-[400px]
+          h-[350px]
           grid
            place-content-center"
         >
@@ -65,8 +65,8 @@ const HomeProjects = () => {
           </div>
         </div>
         {/* SECTION */}
-        <div className="card h-[400px] w-full overflow-hidden ">
-          <div className="projectCard bg-car-card bg-center ">
+        <div className="card h-[350px] w-full overflow-hidden ">
+          <div className="projectCard bg-car-card bg-right ">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">CarGo</span>{" "}
               <span>

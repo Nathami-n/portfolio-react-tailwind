@@ -6,7 +6,7 @@ const HomeProjects = () => {
         Projects
       </h1>
       <div className="max-sm:grid  max-sm:grid-cols-7  max-sm:gap-8 max-sm:p-4 min-h-screen max-sm:w-full">
-        <div className="max-sm:col-span-7  relative h-full w-full ">
+        <div className="max-sm:col-span-7 relative h-full w-full ">
           <div className=" max-sm:rounded-lg  bg-youtube-card  bg-center projectCard transtion-all">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">YouPlay</span>{" "}
@@ -27,6 +27,27 @@ const HomeProjects = () => {
               </span>
             </div>
           </div>
+        </div>
+        <div className="card  max-sm:col-span-7 h-full bg-neutral-900 mix-blend-plus-lighter grid place-content-center">
+         <div className="
+         border
+         rounded-full
+          w-[150px]
+          h-[150px]
+          flex
+          items-center
+          justify-center
+         text-white
+         backdrop-blur-xl
+         
+         ">
+          <p className="
+          p-4
+          text-xl 
+          whitespace-nowrap
+
+          ">Reach Me</p>
+         </div>
         </div>
       </div>
     </section>

@@ -41,12 +41,16 @@ const HomeHero = () => {
             versed in both front-end and back-end technologies{" "}
           </p>
           <div className="
-          sm:w-full
-          w-[90%]
+          lg:justify-start
+          w-full
+          lg:gap-10
           p-3
           flex
           justify-between
+          items-center
           sm:gap-2
+          md:justify-start
+          md:gap-[40px]
           gap-3
           ">
             <div className="

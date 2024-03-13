@@ -41,10 +41,13 @@ const HomeHero = () => {
             versed in both front-end and back-end technologies{" "}
           </p>
           <div className="
-          w-full
+          sm:w-full
+          w-[90%]
           p-3
           flex
           justify-between
+          sm:gap-2
+          gap-3
           ">
             <div className="
             rounded-full
@@ -52,28 +55,28 @@ const HomeHero = () => {
             p-2
             hover:border-neutral-600
             transition
-            "><FaLinkedinIn size={30} className="icon"/></div>
+            "><FaLinkedinIn size={20} className="icon"/></div>
            <div className="
             rounded-full
             border
             p-2
             hover:border-neutral-600
             transition
-            "> <FaGithub  size={30} className="icon"/> </div>
+            "> <FaGithub  size={20} className="icon"/> </div>
            <div className="
             rounded-full
             border
             p-2
             hover:border-neutral-600
             transition
-            "> <CiTwitter  size={30} className="icon"/> </div>
+            "> <CiTwitter size={20}  className="icon"/> </div>
            <div className="
             rounded-full
             border
             p-2
             hover:border-neutral-600
             transition
-            "> <CiYoutube  size={30} className="icon"/> </div>
+            "> <CiYoutube  size={20} className="icon"/> </div>
            
           </div>
         </div>

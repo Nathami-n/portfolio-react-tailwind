@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { CiStar } from "react-icons/ci";
+import {FaGithub, FaLinkedinIn} from 'react-icons/fa6'
+import { CiStar, CiTwitter, CiYoutube } from "react-icons/ci";
 const rotateVariants = {
   rotateStar: {
     rotate: 360,
@@ -39,14 +40,41 @@ const HomeHero = () => {
             constant devouring of new and existing technologies. I am well
             versed in both front-end and back-end technologies{" "}
           </p>
-          <div>
-            <div>
-              <img
-                src="/react.svg"
-                alt="react-icon"
-                className="w-[30px] bg-white/50 rounded-full"
-              />
-            </div>
+          <div className="
+          w-full
+          p-3
+          flex
+          justify-between
+          ">
+            <div className="
+            rounded-full
+            border
+            p-2
+            hover:border-neutral-600
+            transition
+            "><FaLinkedinIn size={30} className="icon"/></div>
+           <div className="
+            rounded-full
+            border
+            p-2
+            hover:border-neutral-600
+            transition
+            "> <FaGithub  size={30} className="icon"/> </div>
+           <div className="
+            rounded-full
+            border
+            p-2
+            hover:border-neutral-600
+            transition
+            "> <CiTwitter  size={30} className="icon"/> </div>
+           <div className="
+            rounded-full
+            border
+            p-2
+            hover:border-neutral-600
+            transition
+            "> <CiYoutube  size={30} className="icon"/> </div>
+           
           </div>
         </div>
       </div>

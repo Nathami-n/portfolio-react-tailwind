@@ -15,3 +15,6 @@
 .cardInfo {
   @apply  flex justify-between items-center w-full
 }
+.icon {
+  @apply   text-neutral-100 hover:text-neutral-500 cursor-pointer transition 
+}

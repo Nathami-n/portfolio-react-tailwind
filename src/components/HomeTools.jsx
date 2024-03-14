@@ -15,6 +15,7 @@ const HomeTools = () => {
         flex-col
         gap-3
         p-3
+        relative
         ">
             <div className="
             card
@@ -33,13 +34,36 @@ const HomeTools = () => {
                         me</span>
                 </h1>
                 <p className="
-                text-white
+                text-[#cdcdcd]
                 text-lg
                 mt-[50px]
                 ">
                     Want to know about me and my skillset? Click on the card that you are hovering hover
                     Click on the card
                 </p>
+                <div className="
+                text-white
+                absolute
+                right-5
+                top-[300px]
+            
+                ">button</div>
+            </div>
+            <div className="
+            card
+            h-[350px]
+            p-3
+            ">
+                <h1 className="
+                text-white
+                font-bold
+                text-3xl
+                text-center
+                "
+                >Technologies I <span className="
+                text-orange-600
+                ">use</span></h1>
+
             </div>
         </div>
     </section>

@@ -51,7 +51,7 @@ const HomeTools = () => {
                 "
           >
             Want to know about me and my skillset? Click on the card that you
-            are hovering hover Click on the card
+            are hovering hover
           </p>
           <div
             className="
@@ -117,8 +117,6 @@ const HomeTools = () => {
                     p-4
                     m-1
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
                     ml-8
 
                     "
@@ -136,8 +134,7 @@ const HomeTools = () => {
                     m-1
                     cursor-pointer
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
+                    
 
                     "
                 >
@@ -153,8 +150,7 @@ const HomeTools = () => {
                     p-4
                     m-1
                     rounded-xl
-                    shadow-md
-                    shadow-orange-600
+                    
 
                     "
                 >
@@ -170,8 +166,7 @@ const HomeTools = () => {
                     p-4
                     m-1
                     rounded-lg
-                    shadow-md
-                    shadow-blue-400
+                  
 
                     "
                 >
@@ -187,8 +182,7 @@ const HomeTools = () => {
                     p-4
                     m-1
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
+                    
 
                     "
                 >
@@ -218,8 +212,7 @@ const HomeTools = () => {
                     p-5
                     m-1
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
+                    
                     ml-8
 
                     "
@@ -236,8 +229,7 @@ const HomeTools = () => {
                     p-4
                     m-1
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
+                   
 
                     "
                   >
@@ -252,9 +244,7 @@ const HomeTools = () => {
                     border
                     p-4
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
-
+                   
                     "
                   >
                     REDUX
@@ -268,9 +258,7 @@ const HomeTools = () => {
                     border
                     p-4
                     rounded-xl
-                    shadow-md
-                    shadow-blue-400
-
+                    
                     "
                   >
                     C/C++/C#/JAVA

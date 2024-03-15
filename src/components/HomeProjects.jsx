@@ -35,6 +35,7 @@ const HomeProjects = () => {
           lg:col-start-5
           lg:col-span-4
           lg:row-start-1
+          lg:row-span-5
           lg:h-full
            place-content-center"
         >

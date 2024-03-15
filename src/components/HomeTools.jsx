@@ -15,6 +15,9 @@ const HomeTools = () => {
         flex
         flex-col
         gap-3
+        lg:grid
+        lg:px-4
+        lg:grid-cols-12
         p-3
         relative
         "
@@ -24,6 +27,7 @@ const HomeTools = () => {
             card
             h-[350px]
             p-6
+            lg:col-span-6
             "
         >
           <h1
@@ -72,6 +76,7 @@ const HomeTools = () => {
             p-3
             flex
             flex-col
+            lg:col-span-6
             gap-9
             "
         >

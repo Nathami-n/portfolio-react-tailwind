@@ -72,7 +72,7 @@ const HomeProjects = () => {
         </div>
         {/* SECTION */}
         <div className="card h-[350px] w-full overflow-hidden md:col-span-12 ">
-          <div className="projectCard bg-car-card bg-right ">
+          <div className="projectCard bg-car-card  mix-blend-color-dodge bg-right ">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">CarGo</span>{" "}
               <span>

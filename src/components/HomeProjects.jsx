@@ -2,8 +2,8 @@ import { CiLocationArrow1 } from "react-icons/ci";
 const HomeProjects = () => {
   return (
     <section className="min-h-screen ">
-      <div className="grid p-4 gap-6">
-        <div className=" relative h-[350px] w-full ">
+      <div className="grid p-4 gap-6 md:grid-cols-12">
+        <div className=" relative h-[350px] w-full md:col-span-6">
           <div className=" max-sm:rounded-lg  bg-youtube-card  bg-center projectCard transtion-all">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">YouPlay</span>{" "}
@@ -14,7 +14,7 @@ const HomeProjects = () => {
             </div>
           </div>
         </div>
-        <div className="card h-[350px] w-full overflow-hidden ">
+        <div className="card h-[350px] w-full overflow-hidden md:col-span-6 ">
           <div className="projectCard bg-guitar-card bg-center ">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">SerahKe</span>{" "}
@@ -31,6 +31,7 @@ const HomeProjects = () => {
           card
           h-[350px]
           grid
+          md:col-span-12
            place-content-center"
         >
           <div
@@ -65,7 +66,7 @@ const HomeProjects = () => {
           </div>
         </div>
         {/* SECTION */}
-        <div className="card h-[350px] w-full overflow-hidden ">
+        <div className="card h-[350px] w-full overflow-hidden md:col-span-12 ">
           <div className="projectCard bg-car-card bg-right ">
             <div className="cardInfo">
               <span className="text-white uppercase text-xl">CarGo</span>{" "}

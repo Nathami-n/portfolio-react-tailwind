@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa6'
 import { CiStar, CiTwitter, CiYoutube } from "react-icons/ci";
+import { Link } from "react-router-dom";
 const rotateVariants = {
   rotateStar: {
     rotate: 360,
@@ -15,7 +16,8 @@ const HomeHero = () => {
   return (
     <section className="min-h-screen max-md:p-6">
       <div className=" max-lg:flex max-lg:flex-col items-center lg:gap-[40px] lg:grid lg:grid-cols-12 lg:px-4 mt-8 gap-11">
-        <div className=" bg-red-400 relative  max-lg:max-w-[750px] max-lg:max-h-[400px] lg:w-[95%] lg:h-[600px]  lg:col-span-6 lg:ml-[40px] card overflow-hidden grid place-content-center ">
+       <Link className=" bg-red-400 relative  max-lg:max-w-[750px] max-lg:max-h-[400px] lg:w-[95%] lg:h-[600px]  lg:col-span-6 lg:ml-[40px] card overflow-hidden grid place-content-center " to='/about'>
+       <div >
           <img
             src="/lap.avif"
             alt="Hero Image"
@@ -31,6 +33,7 @@ const HomeHero = () => {
             </motion.div>
           </motion.div>
         </div>
+       </Link>
         <div className="text-white  lg:ml-[50px] lg:w-[90%] lg:h-[600px]  w-[98%] lg:col-span-6  lg:mr-12 gap-10 bg-bgcard rounded-2xl flex flex-col p-8 justify-center items-center">
           <h1 className="font-bold text-4xl">
             Hello, I&apos;m <span className="text-[#f75c2d]">Nathan</span>

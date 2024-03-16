@@ -37,16 +37,16 @@ const Header = () => {
           />
           <ul className="p-12 flex flex-col gap-12  max-md:top-[20%] h-[400px] max-md:w-full items-center fixed  rounded-3xl  bg-bgcard  md:top-[60px] md:w-[500px] md:right-[40px]">
             <li className="nav">
-              <Link>Home</Link>
+              <Link to='/'>Home</Link>
             </li>
             <li className="nav">
-              <Link>Work</Link>
+              <Link to='/work'>Work</Link>
             </li>
             <li className="nav">
-              <Link>About</Link>
+              <Link to='/about'>About</Link>
             </li>
             <li className="nav">
-              <Link>Contact</Link>
+              <Link to='/contact'>Contact</Link>
             </li>
           </ul>
         </motion.div>

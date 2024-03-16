@@ -18,11 +18,11 @@ const HomeHero = () => {
       <div className=" max-lg:flex max-lg:flex-col items-center lg:gap-[40px] lg:grid lg:grid-cols-12 lg:px-4 mt-8 gap-11">
        <Link className=" bg-red-400 relative  max-lg:max-w-[750px] max-lg:max-h-[400px] lg:w-[95%] lg:h-[600px]  lg:col-span-6 lg:ml-[40px] card overflow-hidden grid place-content-center " to='/about'>
        <div >
-          <img
-            src="/lap.avif"
-            alt="Hero Image"
-            className="object-cover w-full h-full"
-          />
+       <img
+          src="/daark.jpg"
+          alt="Hero Image"
+          className="object-cover w-full mix-blend-color-dodge"
+        />
           <motion.div className="absolute  top-[75%] right-[3%]">
             <motion.div
               variants={rotateVariants}

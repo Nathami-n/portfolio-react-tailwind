@@ -49,7 +49,7 @@ h-[50vh]
   text-xl
   font-bold
   text-center
-  mt-20
+  mt-9
   ">Built by Nathan with Love</p>
 </div>
  </div>

@@ -4,7 +4,7 @@ const HomeTools = () => {
     <section
       className="
     w-full
-    h-screen
+    
     mt-10
     "
     >

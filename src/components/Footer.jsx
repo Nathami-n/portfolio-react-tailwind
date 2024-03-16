@@ -4,8 +4,10 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
 <div className="
-w-full
-mt-20
+max-w-[1250px]
+mx-auto
+mt-12
+md:mt-12
 h-[50vh]
 ">
  <div className="
@@ -13,6 +15,8 @@ h-[50vh]
  flex
  flex-col
  md:flex-row
+ md:justify-between
+ md:items-center
  
  " 
  >
@@ -22,19 +26,22 @@ h-[50vh]
   font-bold
   text-gray-300
   text-center
-  mt-3
+
   mb-6
   "
   >
     Nathan.
   </h1>
-<div>
+<div className="
+md:w-[600px]
+">
   <ul className="
   flex
+  w-full
   items-center
-  justify-around 
+  justify-around
+  md:justify-between
   flex-wrap
-  p-3
   ">
     <li className="text-xl font-bold text-gray-200"><Link>Home</Link></li>
     <li><Link className="text-xl font-bold text-gray-200">About</Link></li>
@@ -48,8 +55,8 @@ h-[50vh]
   text-gray-400
   text-xl
   font-bold
-  text-center
-  mt-9
+  max-md:text-center
+  max-md:mt-9
   ">Built by Nathan with Love</p>
 </div>
  </div>

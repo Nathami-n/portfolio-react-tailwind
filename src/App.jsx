@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import { Home } from "./pages";
-import { Header } from "./components";
+import { Header,Footer } from "./components";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
+    <Footer/>
     </main>
   );
 };

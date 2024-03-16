@@ -2,7 +2,7 @@ import { HomeHero, HomeProjects, HomeTools} from "../components";
 
 const Home = () => {
   return (
-    <div className="h-screen">
+    <div className="min-h-screen">
       <HomeHero /> 
       <HomeProjects/>
       <HomeTools/>
